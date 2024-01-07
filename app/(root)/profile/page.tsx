@@ -2,7 +2,7 @@ async function Page(){
 
   return (
     <>
-      <h1 className='head-text'>Communities</h1>
+      <h1 className='head-text'>Profile</h1>
     </>
   );
 }
