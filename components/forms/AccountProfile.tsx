@@ -22,14 +22,14 @@ import { UserValidation } from "@/lib/validations/user";
 
 interface Props {
   user: {
-    id: string;
-    objectId: string;
-    username: string | null;
-    name: string;
-    bio: string;
-    image: string;
+    id: any;
+    objectId: any;
+    username: any;
+    name: any;
+    bio: any;
+    image: any;
   };
-  btnTitle: string;
+  btnTitle: any;
 }
 
 const AccountProfile = ({ user, btnTitle }: Props) => {
